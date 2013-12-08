@@ -2,10 +2,10 @@
 
 $ sudo dtrace -l 
 
-| ID         | PROVIDER    | MODULE       |FUNCTION| NAME
-|:-----------|------------:|:------------:|--------:------
-|  1         |      dtrace |              |        | BEGIN
-|  2         |      dtrace |              |        | END
+| ID         | PROVIDER    | MODULE       |FUNCTION| NAME|
+|:-----------|------------:|:------------:|--------:------|
+|  1         |      dtrace |              |        | BEGIN|
+|  2         |      dtrace |              |        | END  |
 
 $ sudo dtrace -l | wc -l
 
