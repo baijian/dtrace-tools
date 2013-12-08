@@ -1,9 +1,9 @@
 dtrace:::BEGIN
 {
-    i = 0;
+    i = (char)0;
 }
 
-profile:::tick-1sec
+profile:::tick-100msec
 {
     i = i + 1;
     trace(i);

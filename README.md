@@ -3,7 +3,7 @@
 $ sudo dtrace -l 
 
 | ID         | PROVIDER    | MODULE       |FUNCTION| NAME|
-|:-----------|------------:|:------------:|--------:------|
+|-----------|:------------:|:------------:|:------:|:------:|
 |  1         |      dtrace |              |        | BEGIN|
 |  2         |      dtrace |              |        | END  |
 
@@ -17,3 +17,5 @@ $ sudo dtrace -n BEGIN -n END
 
     provider:module:function:name
 
+
+$ sudo dtrace -s hello.d
